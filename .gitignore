@@ -1,0 +1,63 @@
+# --- Виртуальные окружения ---
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# --- Кэш Python и скомпилированные файлы ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Секреты и конфигурация ---
+.env
+*.env
+.secrets
+*.pem
+*.key
+
+# --- Файлы сборки пакетов ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Локальные базы данных  ---
+*.sqlite3
+*.db
+
+# --- Настройки сред разработки ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Системный мусор ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
